@@ -1,0 +1,25 @@
+# Dataset Understanding
+
+The original Credit Card Fraud Detection dataset contains **284,807 transactions** and **31 columns**: `Time`, `Amount`, `Class`, and **28 anonymized PCA features (V1–V28)`. To improve analysis, additional features were engineered, including `Hour`, `Amount_log`, `Is_night`,'Predicted_Class',  `Fraud_Probability`, `Transaction_Type`, and `Risk_Level`.
+
+For efficient analysis, a **stratified sample of 28,372 transactions** was created while preserving the original fraud rate.
+
+## Current Sample Dataset
+
+- 28,372 transaction records and 38 features
+- No missing values
+- Data types: 32 float, 4 integer, and 2 categorical columns
+- Target variable: `Class` (0 = Non-Fraud, 1 = Fraud)
+
+## Key Features for Fraud Analysis
+
+- Amount
+- Hour
+- Transaction_Type
+- Risk_Level
+- Fraud_Probability
+- Is_night
+
+## Understanding V1–V28
+
+V1–V28 are privacy-protected features created using Principal Component Analysis (PCA). The original customer and transaction information was transformed to hide sensitive details while preserving fraud-related patterns. These features are useful for analysis and modeling, but their exact real-world meanings are unknown.
