@@ -1,0 +1,44 @@
+# Exploratory Data Analysis (EDA) Plan
+
+1. Data Profiling & Quality Assessment
+- Review dataset structure and data types
+- Check for missing values
+- Identify duplicate records
+- Generate descriptive statistics
+- Validate overall data quality
+
+## 2. Fraud Distribution Analysis
+- Analyze Class distribution
+- Calculate fraud and non-fraud percentages
+- Visualize class imbalance
+- Document implications of imbalanced data
+
+## 3. Transaction Amount Analysis
+- Compare transaction amounts for fraud vs non-fraud transactions
+- Analyze amount distribution using boxplots and histograms
+- Identify spending patterns and outliers
+- Evaluate amount as a fraud indicator
+
+## 4. Transaction Time Analysis
+- Analyze transaction timing patterns
+- Compare fraud and legitimate transactions across time
+- Investigate hourly transaction behavior
+- Identify potential time-based fraud trends
+
+## 5. Correlation Analysis
+- Generate feature correlation matrix
+- Identify variables strongly associated with fraud
+- Analyze relationships among features
+- Detect potential multicollinearity
+
+## 6. Feature Importance Analysis
+- Identify features most associated with fraudulent transactions
+- Examine correlation with Class
+- Highlight potential fraud indicators
+- Document notable feature patterns
+
+## 7. Findings & Recommendations
+- Summarize key fraud patterns
+- Document major EDA insights
+- Recommend features for predictive modeling
+- Provide business-oriented observations
